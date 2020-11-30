@@ -7,21 +7,30 @@
 </head>
 
 <body>
-  <!--when the img can't render properly, the content in alt will
-apear in the page, which is also the search engine get about the page-->
-  <a href="https://www.shonenjump.com/j/rensai/jujutsu.html" target="_blank">
-    <img src="https://idononaka.com/wp-content/uploads/2020/03/1-86.png" alt="profile picture fushikuromegumi">
-  </a>
-  <h1>Sakuma Shirayuki</h1>
-  <p><em>B.S. in <a href="http://www.zju.edu.cn/">Zhejiang University</a></em></p>
-  <p>Studying for a master's degree at Zhejiang University.
-    The research direction is deep learning algorithm.
-    Ideal is to become a front end engineer.
-    (Please forgive me for the contradiction.)</p>
-  <!--want to add hyper link?-->
-  <p>
-    Also a Feminists.</p>
-  <p>
+  <table cellspacing="20">
+    <tr>
+      <td>
+        <!--when the img can't render properly, the content in alt will
+      apear in the page, which is also the search engine get about the page-->
+        <a href="https://www.shonenjump.com/j/rensai/jujutsu.html" target="_blank">
+          <img src="https://idononaka.com/wp-content/uploads/2020/03/1-86.png" alt="profile picture fushikuromegumi">
+        </a>
+      </td>
+
+      <td>
+        <h1>Sakuma Shirayuki</h1>
+        <p><em>B.S. in <a href="http://www.zju.edu.cn/">Zhejiang University</a></em></p>
+        <p>Studying for a master's degree at Zhejiang University.
+          The research direction is deep learning algorithm.
+          Ideal is to become a front end engineer.
+          (Please forgive me for the contradiction.)</p>
+        <!--want to add hyper link?-->
+        <p>
+          Also a Feminists.</p>
+        <p>
+      </td>
+    </tr>
+  </table>
   <h2>Educations</h2>
   <hr size="1">
   <!--The <ul> tag defines an unordered (bulleted) list.-->
@@ -32,12 +41,118 @@ apear in the page, which is also the search engine get about the page-->
     <em>B.S.</em> in Optics Engineering
   </ul>
   </p>
+  <h2>Work Experience</h2>
+  <hr size="1">
+  <!--we can use table to make those experience more regular-->
+  <table>
+    <thead>
+      <tr>
+        <!--even the the <th> is written in tbody, the browser
+      can still recognize it as header-->
+        <th>Dates</th>
+        <th>Word</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <!--we can consider th as header cell-->
+        <td>2016-2017</td>
+        <!--and with td as normal cell-->
+        <td>Lead Developer at Jumping App</td>
+      </tr>
+      <tr>
+        <td>2017</th>
+        <td>research at Zhejiang University CAD/CG Lab</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h2>Skills</h2>
+  <hr>
+  <table cellspacing="20">
+    <tr>
+      <td>
+        <table cellspacing="10">
+          <tr>
+            <td>
+              C,C++
+            </td>
+            <td>
+              ⭐⭐⭐⭐
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Python
+            </td>
+            <td>
+              ⭐⭐⭐
+            </td>
+          </tr>
+          <tr>
+            <td>
+              HTML
+            </td>
+            <td>
+              ⭐⭐
+            </td>
+          </tr>
+          <tr>
+            <td>
+              PyTorch
+            </td>
+            <td>
+              ⭐⭐⭐⭐⭐
+            </td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table cellspacing="10">
+          <tr>
+            <td>
+              TensorFlow
+            </td>
+            <td>
+              ⭐⭐⭐
+            </td>
+          </tr>
+          <tr>
+            <td>
+              OpenCV
+            </td>
+            <td>
+              ⭐⭐⭐⭐
+            </td>
+          </tr>
+          <tr>
+            <td>
+              OpenVino
+            </td>
+            <td>
+              ⭐⭐⭐
+            </td>
+          </tr>
+          <tr>
+            <td>
+              MySQL
+            </td>
+            <td>
+              ⭐⭐⭐
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
   <p>
   <h2>Hobbies</h2>
   <hr size="1">
   <ol>
     <li>I'm a fan of <a href="https://unison-s-g.com/">Unison Square Garden</a> and <a href="https://www.kronekodow.com/">Sheena Ringo.</a>
-    <a href="hobbies.html">Here is my favorite albums.</a></li>
+      <a href="hobbies.html">Here is my favorite albums.</a>
+    </li>
     <li>Love Comics and Mangas.</li>
     <li>Tried to paint and play guitar but it was terrible</li>
     <li>Love fictions, dramas and movies. Favorite writer is Dostoevsky</li>
@@ -45,9 +160,9 @@ apear in the page, which is also the search engine get about the page-->
   <img src="images/1122.png" alt="inumaki" width="580" height="368">
   </p>
   <p>
-    <h2>Contact informantion</h2>
-    <hr>
-    <a href="contacts.html">contacts page</a>
+  <h2>Contact informantion</h2>
+  <hr>
+  <a href="contacts.html">contacts page</a>
   </p>
 </body>
 
