@@ -13,14 +13,27 @@
     <br>
     <a href="https://weibo.com/u/1802662755">My page on weibo</a>
   <p>
-  <form action="" method="get" class="form-example">
+    <hr>
+  <form action="mailto:sakumashirayuki@gmail.com" method="post" class="form-example">
     <div class="form-example">
       <label for="name">Enter your name: </label>
+      <!--When present, it specifies that an input field
+       must be filled out before submitting the form.-->
       <input type="text" name="name" id="name" required>
     </div>
     <div class="form-example">
       <label for="email">Enter your email: </label>
       <input type="email" name="email" id="email" required>
+    </div>
+    <div class="form-example">
+      <label for="song">Have You ever heard one of USG's song</label>
+      <input type="checkbox" name="song" id="song" required> <br>
+    </div>
+    <div class="form-example">
+      <label for="message">Enter your message</label> <br>
+      <!--the size of textarea can be changed by dragging
+    here is the default value-->
+      <textarea name="message" rows="8" cols="80"></textarea>
     </div>
     <div class="form-example">
       <input type="submit" value="Subscribe!">
