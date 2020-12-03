@@ -1,0 +1,48 @@
+/*******************************Tag selection**********************************/
+body{
+  background-image: url("../imgs/baconBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/*better to write properties in alphabetical order*/
+h1{
+  background-color: rgba(249,224,174,0.5);
+  color: #682C0E;
+  font-size: 100px;
+}
+p{
+  text-align: center;
+  color: white;
+}
+p:hover{
+  color:#F9e0ae;
+}
+
+img:hover{
+  background-color: gold;
+}
+
+/*****************************Class selection**********************************/
+
+/*
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+*/
+.bacon{
+  background-color: red;
+}
+.broccoli{
+  background-color: green;
+}
+.circular
+{
+  border-radius: 100%;
+}
+
+/*******************************Id selection***********************************/
+#heading{
+  text-align: center;
+}
