@@ -1,0 +1,41 @@
+/******************************TAG selector********************************/
+body{
+  margin: 0px;
+}
+h1{
+  /*when the value is o, we don't have to specify the unit.*/
+  margin-top: 0px;
+  padding: 10px 10px 0px;
+  color:white;
+}
+p{
+  background-color: #9f5f80;
+  color:white;
+  display: inline-block;
+  margin-bottom: 0px;
+  padding:0px 10px;
+}
+/*****************************CLASS selector*******************************/
+.top-container{
+  background-color: #583d72;
+}
+.middle-container{
+  background-color: #9f5f80;
+  height:200px;
+  width: 200px;
+}
+.bottom-container{
+  background-color: #ff8e71;
+  height:200px;
+  width: 200px;
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+.pro{
+  text-decoration: underline;
+}
