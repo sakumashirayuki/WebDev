@@ -1,41 +1,62 @@
 /******************************TAG selector********************************/
 body{
   margin: 0px;
+  text-align: center;
+  background-color: #583d72;
+  /*suggest to use sans-serif and serif*/
+  /*Values are separated by commas to indicate that they are alternatives. */
+  /*we make the 'Merriweather' as our default font.*/
+  font-family: 'Merriweather', serif;
 }
 h1{
   /*when the value is o, we don't have to specify the unit.*/
-  margin-top: 0px;
-  padding: 10px 10px 0px;
   color:white;
+  width:20%;
+  margin:0 auto;
+  font-family: 'Sacramento', cursive;
+}
+h2{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+h3{
+  color:white;
+  font-family: 'Montserrat', sans-serif;
 }
 p{
-  background-color: #9f5f80;
+  /*
+    background-color: #9f5f80;
+  */
   color:white;
-  display: inline-block;
   margin-bottom: 0px;
   padding:0px 10px;
 }
 /*****************************CLASS selector*******************************/
 .top-container{
-  background-color: #583d72;
+  position: relative;
+  top:100px;
 }
 .middle-container{
   background-color: #9f5f80;
-  height:200px;
-  width: 200px;
+  position: relative;
+  top:100px;
 }
 .bottom-container{
   background-color: #ff8e71;
-  height:200px;
-  width: 200px;
-}
-.centered {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
+  position: relative;
+  top:100px;
 }
 .pro{
   text-decoration: underline;
+}
+/*****************************ID selector*******************************/
+#cloud_1{
+  position: absolute;
+  top:-50px;
+  left:60%;
+}
+#cloud_2{
+  position: absolute;
+  left: 30%;
+  bottom:300px;
 }
