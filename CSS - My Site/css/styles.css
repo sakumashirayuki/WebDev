@@ -10,44 +10,91 @@ body{
 }
 h1{
   /*when the value is o, we don't have to specify the unit.*/
-  color:white;
-  width:20%;
-  margin:0 auto;
+  color:#ffba93;
+  /*90px / 16px = 562.5%. 16px is the default h1 size in browser medium setting*/
+  /*either this way*/
+  /*font-size: 562.5%;*/
+  /*or this*/
+  font-size: 5.625rem;
+  width:40%;
+  margin:50px auto 0;
   font-family: 'Sacramento', cursive;
 }
 h2{
-  color: white;
+  color: #ffba93;
+  font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
 }
 h3{
-  color:white;
+  color: #583d72;
   font-family: 'Montserrat', sans-serif;
+}
+a{
+  color: #ff8e71;
 }
 p{
   /*
     background-color: #9f5f80;
   */
-  color:white;
   margin-bottom: 0px;
-  padding:0px 10px;
+  text-align: left;
+  line-height: 2;
+  /*clear:both;*/
 }
 /*****************************CLASS selector*******************************/
 .top-container{
   position: relative;
   top:100px;
+  line-height: 2;
 }
 .middle-container{
+  background-color: white;
+
+  position: relative;
+  top:100px;
+
+  text-align: left;
+
+  display: inline-block;
+}
+.middle-container img{
+  height:50%;
+  width:50%;
+}
+.bottom-container{
   background-color: #9f5f80;
   position: relative;
   top:100px;
 }
-.bottom-container{
-  background-color: #ff8e71;
-  position: relative;
-  top:100px;
+.profile{
+  margin: 100px auto 100px;
+  width: 50%;
+}
+.skill-row{
+  margin: 100px auto;
+  width: 50%;
+}
+.contact-me{
+  background-color: white;
+  margin: 100px auto;
+  width: 50%;
+}
+.subtitle{
+  font-weight: normal;
 }
 .pro{
   text-decoration: underline;
+}
+.music{
+  float: left;
+  margin-right: 30px;
+}
+.painting{
+  float: right;
+  margin-left: 30px;
+}
+.register{
+  text-align: center;
 }
 /*****************************ID selector*******************************/
 #cloud_1{
