@@ -1,0 +1,27 @@
+#container {
+  display: grid;
+  height:500px;
+  grid-template-areas: "box1 box1"
+                       "box2 box3"
+                       "box2 box4";
+  grid-template-rows: 50px 1fr 30px;
+  grid-template-columns: 150px 1fr;
+}
+/*we can do #container > .box1*/
+/*but this is also right*/
+.box1{
+  grid-area: box1;
+  background-color: #8ca0ff;
+}
+.box2{
+  grid-area: box2;
+  background-color: #ffa08c;
+}
+.box3{
+  grid-area:box3;
+  background-color: #ffff64;
+}
+.box4{
+  grid-area: box4;
+  background-color: #8cffa0;
+}
